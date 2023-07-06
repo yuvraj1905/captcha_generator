@@ -84,6 +84,9 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
+  * {
+    background-color: aqua;
+  }
   .signup__page {
     position: relative;
     width: 80%;

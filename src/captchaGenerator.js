@@ -1,5 +1,5 @@
 export const captchaGenerator = () => {
-  const stringPossibilities = "AeIoU159";
+  const stringPossibilities = "AeZu1593";
   let generatedCaptcha = "";
   for (const i of stringPossibilities) {
     const randomLetter = stringPossibilities.charAt(
